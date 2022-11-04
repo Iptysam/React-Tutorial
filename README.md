@@ -1,67 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Getting Started with Create React App
 
-# React Tutorial: React todo App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description the project.
-- Build react app from scratch
-- Use props, state, hooks
+## Available Scripts
 
-## Built With
+In the project directory, you can run:
 
-- HTML & CSS
-- Javascript ES6
-- Visual Studio Code
-- React
+### `npm start`
 
-## Live Demo (if available)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[Live Demo Link](https://iptysam.github.io/React-Tutorial/ )
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Getting Started
+### `npm test`
 
-- To get a local copy up and running follow these simple example steps.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
-- Have a Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
-- Have git installed on the Computer
-- Have a browser install on the Computer
-### Setup
-- If it suits you, on your local computer, create a directory in your preferred location (e.g in the Desktop or Document directory)
-### Install
-- Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
-- Type `git clone ()` if your're using https with git or `git clone ` if your preferred is ssh and hit enter.
-- Navigate to the `Conference` directory on your local computer in your above chosen directory and open the `index.html` file.
-### Usage
-- You can view the HTML document in your preferred or default browser.
+### `npm run build`
 
-## Authors
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-👤 **Iptisam Mukadam**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- GitHub: [@Iptysam](https://github.com/Iptysam)
-- LinkedIn:(www.linkedin.com/in/iptisam-mukadam-4b2b39239)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Contribution By Partners
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 🤝 Contributing
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Contributions, issues, and feature requests are welcome!
+## Learn More
 
-Feel free to check the [issues page](../../issues/).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Show your support
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Give a ⭐️ if you like this project!
+### Code Splitting
 
-## Acknowledgments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+### Analyzing the Bundle Size
 
-## 📝 License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This project is [MIT](./LICENSE) licensed.
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
