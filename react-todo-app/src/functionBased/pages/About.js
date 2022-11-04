@@ -1,8 +1,6 @@
-import React from "react"
+import React from 'react';
 
-
-const About = () => {
-  return(
+const About = () => (
     <div className="about__content">
         <p className="about">
       React Todo App
@@ -10,7 +8,5 @@ const About = () => {
       You can add, edit and delete any item added
     </p>
   </div>
-  )
-  
-}
-export default About
+);
+export default About;
