@@ -17,9 +17,9 @@ const Header = () => {
           textTransform: 'lowercase',
           textAlign: 'center',
         }}
-        >
-          todos
-        </h1>
+      >
+        todos
+      </h1>
     </header>
   );
 };

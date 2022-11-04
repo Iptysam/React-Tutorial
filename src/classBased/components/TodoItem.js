@@ -40,23 +40,25 @@ class TodoItem extends React.Component {
           editMode.display = 'none';
         }
         return (
-        <li className={styles.item}>
+          <li className={styles.item}>
             <div onDoubleClick={this.handleEditing} style={viewMode}>
-            <input classname={styles.checkboxes} type ="checkbox" checked={completed} onChange = {() => this.props.handleChangeProps(id)} />
-            <button onClick={ () => this.props.deleteTodoProps}>Delete</button>
-           <span style={completed ? completedStyle : null}>
-             {title}
-           </span>
-           </div>
-           <input type="text"
-                 style={editMode}
-                 className={styles.textInput}
-                 value={title}
-                 onChange={(e) => {
-                   this.props.setUpdate(e.target.value, id);
-                 }}
-                onKeyDown={this.handleUpdatedDone} />
-        </li>
+              <input className={styles.checkboxes} type="checkbox" checked={completed} onChange={() => this.props.handleChangeProps(id)} />
+              <button onClick={() => this.props.deleteTodoProps}>Delete</button>
+              <span style={completed ? completedStyle : null}>
+                {title}
+              </span>
+            </div>
+            <input
+              type="text"
+              style={editMode}
+              className={styles.textInput}
+              value={title}
+              onChange={(e) => {
+                this.props.setUpdate(e.target.value, id);
+              }}
+              onKeyDown={this.handleUpdatedDone}
+            />
+          </li>
         );
       }
 }

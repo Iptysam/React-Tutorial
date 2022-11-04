@@ -27,16 +27,16 @@ const InputTodo = (props) => {
 
   return (
     <>
-       <form onSubmit={handleSubmit} className="form-container">
-      <input
-        type="text"
-        className="input-text"
-        placeholder="Add todo..."
-        value={inputText.title}
-        name="title"
-        onChange={onChange}
-      />
-      <button className="input-submit"><FaPlusCircle style={{ color: 'darkcyan', fontSize: '20px', marginTop: '2px' }}/></button>
+      <form onSubmit={handleSubmit} className="form-container">
+        <input
+          type="text"
+          className="input-text"
+          placeholder="Add todo..."
+          value={inputText.title}
+          name="title"
+          onChange={onChange}
+        />
+        <button className="input-submit"><FaPlusCircle style={{ color: 'darkcyan', fontSize: '20px', marginTop: '2px' }} /></button>
       </form>
       <h2>{inputText.fName}</h2>
       <h2>{inputText.lastName}</h2>

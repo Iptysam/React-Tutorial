@@ -29,19 +29,21 @@ const Navbar = () => {
 
   return (
     <nav className="navBar">
-        <button onClick={handleToggle}>{navbarOpen ? (
-    <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
+      <button onClick={handleToggle}>
+        {navbarOpen ? (
+          <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
         ) : (
-    <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
-        )}</button>
-    <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
-      {links.map((link) => (
+          <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
+        )}
+      </button>
+      <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
+        {links.map((link) => (
           <li key={link.id}>
             <NavLink to={link.path} activeClassName="active-link" onClick={() => closeMenu()} exact>{link.text}</NavLink>
           </li>
-      ))}
-    </ul>
-  </nav>
+        ))}
+      </ul>
+    </nav>
   );
 };
 export default Navbar;
