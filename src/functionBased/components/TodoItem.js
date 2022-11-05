@@ -3,7 +3,6 @@ import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
-  
   const [editing, setEditing] = useState(false);
 
   const handleEditing = () => {
@@ -23,7 +22,7 @@ const TodoItem = (props) => {
     textDecoration: 'line-through',
   };
 
-  const { completed, id, title } = props.todo;
+  const { completed, id, title } = props;
 
   const viewMode = {};
   const editMode = {};
